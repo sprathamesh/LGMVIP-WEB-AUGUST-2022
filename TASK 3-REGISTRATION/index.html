@@ -1,0 +1,53 @@
+<html>
+  <head>
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <table id="Form">
+        <thead>
+          <tr>
+            <br>
+            <h1 style="color:#1a6b6a; font-size:40px">REGISTRATION FORM </h1>
+            <td>
+              <input type="text" name="fname" id="fname" placeholder="First Name"  />
+            </td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <input type="text" name="lname" id="lname" placeholder="Last Name"  />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input type="text" name="email" id="email" placeholder="Email" />
+            </td>
+          </tr>
+          <tr>
+            <td><input type="text" name="age" id="age" placeholder="Age" /></td>
+          </tr>
+          <tr id="btna">
+            <td colspan="2">
+              <input type="button" name="button" id="btn" value="Register" onclick="AddRow()" />
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <h4 style="color:#1a6b6a; font-size:20px">ENROLLED STUDENTS</h4>
+      <table id="show" border="4">
+        <thead>
+          <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Email</th>
+            <th>Age</th>
+          </tr>
+        </thead>
+      </table>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
